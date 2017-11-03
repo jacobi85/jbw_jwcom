@@ -1,0 +1,64 @@
+@font-face {
+	font-family:'m_1cregular';
+	src: url("../../assets/fonts/mplus-1c-regular-webfont.eot");
+	src: url("../../assets/fonts/mplus-1c-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/mplus-1c-regular-webfont.woff") format("woff"), url("../../assets/fonts/mplus-1c-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/mplus-1c-regular-webfont.svg#m_1cregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'm_1cregular';
+}
+
+.header {
+	/*font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+	background-color: #fafafa;
+	position: relative;
+}
+
+.jumbotron {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 0;
+	position: relative;
+	background: transparent;
+	position: absolute;
+	top: 2em;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.jumbotron-inner {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.header-image {
+	object-fit: cover;
+	width: 100%;
+	max-width: 150%;
+	min-height: 500px;
+	z-index: 1;
+}
+
+.header-happy-line {
+	background: url("../../assets/layout/happy-line.86a7331e.svg");
+	height: 4.19921875vw;
+	background-size: 100% 4.19921875vw;
+	width: 100%;
+	fill: #fff;
+}
+
+.header__curve {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	z-index: 1;
+}
+
+.jumbotron p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
